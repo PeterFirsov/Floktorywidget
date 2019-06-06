@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="17" height="22" viewBox="0 0 17 22">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 20px;
+        fill: #416da1;
+        font-family: Roboto;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <text id="B" class="cls-1" transform="translate(-1.063 21.305) scale(1.469 1.488)">B</text>
+</svg>

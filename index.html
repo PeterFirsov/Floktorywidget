@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Floktory</title>
+    <link href="normalize.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <section class="modal">
+      <h2 class="visually-hidden">Уведомление о принятии заказа</h2>
+      <button class="modal__close" type="button"><span class="visually-hidden">Закрыть</span></button>
+      <div class="modal__top">
+        <p class="modal__your-order">ВАШ ЗАКАЗ №<span class="modal__order-number">1890998</span> ПРИНЯТ И НАХОДИТСЯ В ОБРАБОТКЕ</p>
+      </div>
+      <div class="modal__main">
+        <h3 class="modal__your-name">Михаил Иванович! <span class="modal__discount">10%</span></h3>
+        <p class="modal__text">
+            подарите друзьям скидку <br>
+            в «CompanyName» и получите скидку <br>
+            в подарок, за каждого друга
+        </p>
+        <ul class="social-list modal__list">
+          <li class="social-list__item">
+            <a class="social-list__link social-list--OK" href="#">
+              <img class="social-list__img social-list__img--OK" src="img/OK.svg" alt="Одноклассники">
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link social-list--FB" href="#">
+              <img class="social-list__img social-list__img--FB" src="img/FB.svg" alt="Фейсбук">
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link social-list--TW" href="#">
+              <img class="social-list__img social-list__img--TW" src="img/TW.svg" alt="Твиттер">
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link social-list--VK" href="#">
+              <img class="social-list__img social-list__img--VK" src="img/VK.png" alt="Вконтакте">
+            </a>
+          </li>
+          
+        </ul>
+        <form class="modal__form" action="https://echo.flocktory.ru" method="POST">
+          <input class="modal__form-input" type="text" name="friend-mail" placeholder="E-mail друзей" pattern="^[0-9a-zA-Z\s\D]+$">
+          <div class="modal__form-text">
+            <textarea class="modal__form-textarea" name="letter-text">Хороший ассортимент и цены         в %site_name%. Только что после покупки подарили скидку              %friend-reward% для моих друзей!
+
+Времени мало, Вперёд!
+            </textarea>
+          </div>
+          <button class="button modal__form-button" type="submit">Отправить</button>
+        </form>
+      </div>
+      <div class="modal__footer">
+        <a class="modal__link" href="#">http://floctoryblablabla/#########</a>
+        <a class="modal__rules" href="#">Правила акции</a>
+        <a class="modal__user-rules" href="#">ПОЛЬЗОВАТЕЛЬСКОЕ СОГЛАШЕНИЕ</a>
+      </div>
+    </section>
+
+  </body>
+</html>
