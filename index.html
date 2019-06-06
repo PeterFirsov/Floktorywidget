@@ -21,22 +21,22 @@
         </p>
         <ul class="social-list modal__list">
           <li class="social-list__item">
-            <a class="social-list__link social-list--OK" href="#">
+            <a class="social-list__link social-list--OK" href="#" aria-label="Наш Одноклассники">
               <img class="social-list__img social-list__img--OK" src="img/OK.svg" alt="Одноклассники">
             </a>
           </li>
           <li class="social-list__item">
-            <a class="social-list__link social-list--FB" href="#">
+            <a class="social-list__link social-list--FB" href="#" aria-label="Наш Фейсбук">
               <img class="social-list__img social-list__img--FB" src="img/FB.svg" alt="Фейсбук">
             </a>
           </li>
           <li class="social-list__item">
-            <a class="social-list__link social-list--TW" href="#">
+            <a class="social-list__link social-list--TW" href="#" aria-label="Наш Твиттер">
               <img class="social-list__img social-list__img--TW" src="img/TW.svg" alt="Твиттер">
             </a>
           </li>
           <li class="social-list__item">
-            <a class="social-list__link social-list--VK" href="#">
+            <a class="social-list__link social-list--VK" href="#" aria-label="Наш Вконтакте">
               <img class="social-list__img social-list__img--VK" src="img/VK.png" alt="Вконтакте">
             </a>
           </li>
@@ -44,12 +44,10 @@
         </ul>
         <form class="modal__form" action="https://echo.flocktory.ru" method="POST">
           <input class="modal__form-input" type="text" name="friend-mail" placeholder="E-mail друзей" pattern="^[0-9a-zA-Z\s\D]+$">
-          <div class="modal__form-text">
-            <textarea class="modal__form-textarea" name="letter-text">Хороший ассортимент и цены         в %site_name%. Только что после покупки подарили скидку              %friend-reward% для моих друзей!
+          <textarea class="modal__form-textarea" name="letter-text">Хороший ассортимент и цены         в %site_name%. Только что после покупки подарили скидку              %friend-reward% для моих друзей!
 
 Времени мало, Вперёд!
-            </textarea>
-          </div>
+          </textarea>
           <button class="button modal__form-button" type="submit">Отправить</button>
         </form>
       </div>
