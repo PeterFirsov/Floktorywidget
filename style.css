@@ -285,7 +285,23 @@ body {
 }
 
 .modal__form-button {
+    position: relative;
     margin-bottom: 18px;
+}
+
+.modal__form-button::after {
+    content: "";
+    display: none;
+    position: absolute;
+    top: -12px;
+    right: 6px;
+    width: 46px;
+    height: 94px;
+    background-image: url("img/VSO.png");
+}
+
+.modal__form-button:hover::after {
+    display: block;
 }
 
 .modal__footer {
